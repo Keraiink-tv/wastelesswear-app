@@ -1,0 +1,7 @@
+{
+  "name": "wastelesswear-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

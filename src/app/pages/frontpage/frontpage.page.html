@@ -1,0 +1,43 @@
+<ion-menu contentId="main-content">
+  <!-- Menu content here -->
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button color="tertiary"></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Logo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding" scrollY="false">
+    <div class="image-container">
+      <img src="https://i.pinimg.com/originals/8d/a9/a0/8da9a08e1e8d1738a5abdd06b1f74402.jpg" alt="Centered Image" class="centered-image">
+      <div class="text-over-image">
+        <h2>Velkommen Olivia</h2>
+        <button class="round-button">
+          <ion-icon name="camera"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </ion-content>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="person">
+        <ion-icon name="person-circle"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="heart">
+        <ion-icon name="heart"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="search"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="location">
+        <ion-icon name="location"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</div>

@@ -1,0 +1,33 @@
+ion-card{
+    position: fixed;
+    border-radius: 50% !important;
+    height: 350px !important;
+    width: 350px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ion-card-title{
+    color: black !important;
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 60px;
+    color: black;
+    padding-top: 20px;
+}
+
+.moto-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 140px;
+}

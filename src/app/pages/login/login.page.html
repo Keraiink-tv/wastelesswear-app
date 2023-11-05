@@ -1,0 +1,36 @@
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button color="tertiary"></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Logo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content [fullscreen]="true" scrollY="false">
+
+  <p class="moto-text">
+    <ion-text>Tøjet længe leve! Stop tøj</ion-text>
+  </p>
+
+  <div class="flex-center">
+    <ion-card color="tertiary">
+      <ion-card-header>
+        <ion-card-title>Wasteless Wear</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item color="medium-contrast">
+          <ion-input label="Email" labelPlacement="stacked" ></ion-input>
+        </ion-item>
+
+        <ion-item color="medium-contrast">
+          <ion-input label="Password" labelPlacement="stacked" ></ion-input>
+        </ion-item>
+
+        <ion-button class="login-button" shape="round" color="success">Login</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

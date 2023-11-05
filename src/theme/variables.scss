@@ -153,15 +153,15 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: rgb(247, 165, 226);
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #ffffff;
     --ion-text-color-rgb: 255,255,255;
 
-    --ion-color-step-50: #0d0d0d;
-    --ion-color-step-100: #1a1a1a;
-    --ion-color-step-150: #262626;
+    --ion-color-step-50: #ffffff;
+    --ion-color-step-100: #5900ff;
+    --ion-color-step-150: #ffffff;
     --ion-color-step-200: #333333;
     --ion-color-step-250: #404040;
     --ion-color-step-300: #4d4d4d;
@@ -197,7 +197,7 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #ffffff;
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -227,7 +227,7 @@
 
     --ion-item-background: #1e1e1e;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #8a1212;
 
     --ion-tab-bar-background: #1f1f1f;
 

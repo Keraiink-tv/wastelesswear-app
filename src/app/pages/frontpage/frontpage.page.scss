@@ -1,0 +1,58 @@
+.ion-padding{
+    color: rgb(201, 201, 201) !important;
+    padding: 50vh;
+}
+
+.image-container {  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  padding: 10px;
+}
+
+.centered-image {
+  max-width: 75%; /* Begrænser billedets bredde til containerens bredde */
+  max-height: 75%; /* Begrænser billedets højde til containerens højde */
+  border-radius: 5px;
+  border: 1vw solid #a334cf;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+ 
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .text-over-image {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+  }
+
+  .round-button {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Justér farven efter behov */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Tilføjer en let skygge */
+  }
+  
+  .round-button ion-icon {
+    font-size: 40px; /* Justér ikonets størrelse efter behov */
+    color: #000000; /* Ændrer ikonets farve til hvid */
+  }
+
